@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+  background: url(/img/printbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;  
+}
+
+.bar {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #2b2039;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  padding: 0 10px; 
+}
+
+.bottom-bar {
+  bottom: 0;
+   display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.left-text {
+  flex: 0 0 auto;
+  margin-left: 5px;
+}
+
+.center-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wardrobe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+  padding-top: 1.75rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.outfit-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.outfit-preview img {
+  width: 125px;
+  margin: 0.25rem 0;
+  box-shadow: inset -2px -2px 0 #aaa, inset 2px 2px 0 #eee;
+  background-color: #c0c0c0;
+  padding: 4px;
+}
+
+
+button {
+  padding: 0.5rem 1rem;
+  border: 2px solid #fff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  background-color: #c0c0c0;
+  color: black;
+  cursor: pointer;
+  box-shadow: inset -1px -1px 0 #808080, inset 1px 1px 0 #fff;
+  
+}
+
+button:active {
+  border-color: #808080 #fff #fff #808080;
+  box-shadow: inset 1px 1px 0 #808080, inset -1px -1px 0 #fff;
+}
