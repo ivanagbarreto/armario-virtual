@@ -2,8 +2,6 @@ body {
   margin: 0;
   font-family: "Press Start 2P", cursive;
   background: url(/img/printbg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100vh;  
 }
 
